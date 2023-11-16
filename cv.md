@@ -14,3 +14,19 @@ Hi, I'm Polina, I'm a third-year student majoring in software engineering. I am 
 
 ## My skills
 I know basic HTML, CSS, JS, C++
+
+## Code Examples
+button.onclick = function(){
+    if (allFilled) {
+        warning.style.color = '';
+        button.disabled = false;
+    } 
+}
+
+## Projects
+Took an intensive course from Roman Chernov on front-end development and now working on a college project in which I am involved in the front-end part.
+[Project from an intensive course](https://ikspass.github.io/burgers/)
+
+## English
+English - B1.
+Russian - native speaker.
