@@ -4,7 +4,7 @@
 - tel: +375256085506
 - Telegram: ikspa.ss
 - e-mail: ruchkovapolina@gmail.com
-- Github: [Ikspass](https://github.com/ikspass)
+- github: [Ikspass](https://github.com/ikspass)
 
 ## About me
 Hi, I'm Polina, I'm a third-year student majoring in software engineering. I am interested in front-end development and am studying this area on my own. My goal is to master front-end development technologies and get my first job in an IT company as quickly as possible.
@@ -25,8 +25,8 @@ button.onclick = function(){
 
 ## Projects
 Took an intensive course from Roman Chernov on front-end development and now working on a college project in which I am involved in the front-end part.
-[Project from an intensive course](https://ikspass.github.io/burgers/)
+[Project from an intensive course.](https://ikspass.github.io/burgers/)
 
 ## English
-English - B1.
+English - A2.
 Russian - native speaker.
