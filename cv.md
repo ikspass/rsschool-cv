@@ -27,6 +27,6 @@ button.onclick = function(){
 Took an intensive course from Roman Chernov on front-end development and now working on a college project in which I am involved in the front-end part.
 [Project from an intensive course.](https://ikspass.github.io/burgers/)
 
-## English
+## Languages
 English - A2.
 Russian - native speaker.
