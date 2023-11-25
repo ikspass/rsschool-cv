@@ -20,7 +20,7 @@ li{
 }
 .container{
     margin: 0 auto;
-    width: 700px;
+    width: 1000px;
     padding-top: 60px;
 }
 
@@ -31,8 +31,13 @@ li{
 .title{
     font-weight: 700;
     padding: 5px;
+    user-select: none;
+    cursor: pointer;
     font-size: 20px;
     border-bottom: 1px solid rgb(231, 231, 231);
+}
+.title:hover{
+    text-decoration: underline;
 }
 .text{
     margin-top: 10px;
