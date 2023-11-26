@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Polina Ruchkova</h1>
+        <div id="contacts" class="info-container">
+            <div data-link="contacts" class="title">Contacts</div>
+            <div class="text">
+                <ul>
+                    <li>tel: +375256085506</li>
+                    <li>telegram: ikspa.ss</li>
+                    <li>e-mail: ruchkovapolina@gmail.com</li>
+                    <li>github: <a href="https://github.com/ikspass">Ikspass</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="about-me" class="info-container">
+            <div data-link="about-me" class="title">About me</div>
+            <div class="text">Hi, I’m Polina, I’m a third-year student majoring in software engineering. I am interested in front-end development and am studying this area on my own. My goal is to master front-end development technologies and get my first job in an IT company as quickly as possible.</div>
+        </div>
+        <div id="education" class="info-container">
+            <div data-link="education" class="title">Education</div>
+            <div class="text">3rd year student at Minsk State College of Digital Technologies.</div>
+        </div>
+        <div id="my-skills" class="info-container">
+            <div data-link="my-skills" class="title">My skills</div>
+            <div class="text">I know basic HTML, CSS, JS, C++</div>
+        </div>
+        <div id="code-examples" class="info-container">
+            <div data-link="code-examples" class="title">Code Examples</div>
+            <div class="text">button.onclick = function(){ if (allFilled) { warning.style.color = ‘’; button.disabled = false; } }</div>
+        </div>
+        <div id="projects" class="info-container">
+            <div data-link="projects" class="title">Projects</div>
+            <div class="text">Took an intensive course from Roman Chernov on front-end development and now working on a college project in which I am involved in the front-end part.</div>
+            <a href="https://ikspass.github.io/burgers/"> Project from an intensive course.</a>
+        </div>
+        <div id="languages" class="info-container">
+            <div data-link="languages" class="title">Languages</div>
+            <div class="text">English - A2. Russian - native speaker.</div>
+        </div>
+    </div>
+    <script>
+        let links = document.querySelectorAll(".title");
+        for(let i = 0; i < links.length; i++){
+            links[i].onclick = function(){
+                document.getElementById(links[i].getAttribute("data-link")).scrollIntoView({behavior:"smooth"});
+            }
+        }   
+    </script>
+</body>
+</html>
