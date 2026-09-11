@@ -1,3 +1,3 @@
 # rsschool-cv
 
-[Deploy](https://GITHUB-USERNAME.github.io/rsschool-cv/cv)
+[CV Deploy](https://ikspass.github.io/rsschool-cv/cv)
