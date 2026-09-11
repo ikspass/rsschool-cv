@@ -46,8 +46,10 @@ function multiply(a, b){
 - Стек: HTML, CSS, Flexbox, Grid, Figma
 - Реализовала кроссбраузерную и адаптивную верстку по макетам из Figma
   
-**Сайт мебельного агентства** \| [🔗 Деплой](https://modern-lines.vercel.app/) \| [💻 GitHub](https://github.com/ikspass/modern-lines)\
-**Сайт отеля** \| [🔗 Деплой](https://nestoria.vercel.app/) \| [💻 GitHub](https://github.com/ikspass/nestoria)\
+**Сайт мебельного агентства** \| [🔗 Деплой](https://modern-lines.vercel.app/) \| [💻 GitHub](https://github.com/ikspass/modern-lines)
+
+**Сайт отеля** \| [🔗 Деплой](https://nestoria.vercel.app/) \| [💻 GitHub](https://github.com/ikspass/nestoria)
+
 **Сайт пекарни** \| [🔗 Деплой](https://crustelle.vercel.app/index.html) \| [💻 GitHub](https://github.com/ikspass/crustelle)
 
 # Опыт работы #
