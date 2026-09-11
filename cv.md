@@ -11,7 +11,7 @@ GitHub: [ikspass](https://github.com/ikspass)\
 Email: [polyrychkova@gmail.com](mailto:polyrychkova@gmail.com)\
 Discord: @ikspa.ss
 
-## О себе
+# О себе #
 Начинающий **Frontend-разработчик**
 
 - **Цели и приоритеты**\
