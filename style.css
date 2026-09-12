@@ -109,9 +109,14 @@ a:hover {
 }
 
 .nav {
+  padding: 10px 20px;
+}
+
+.nav__list {
+  margin: 0;
+  list-style-type: none;
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
 }
 
 .header {
