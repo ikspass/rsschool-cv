@@ -45,7 +45,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 60px;
   gap: 20px;
 }
 
@@ -134,4 +133,15 @@ pre {
 code {
   font-family: 'Courier New';
   font-size: 18px;
+}
+
+.footer {
+  border-radius: 20px 20px 0 0;
+  border: 1px solid rgb(203, 203, 203);
+  border-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  padding-bottom: 40px;
+  align-items: center;
 }
