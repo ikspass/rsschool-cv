@@ -37,7 +37,7 @@ function multiply(a, b){
 ```
 
 # Проектный опыт #
-**To-Do Application** \| [🔗 Деплой]() \| [💻 GitHub]()
+**To-Do Application** \| [🔗 Деплой](https://to-do-list-khaki-alpha.vercel.app/) \| [💻 GitHub](https://github.com/ikspass/to-do-list)
 - Стек: React, JavaScript, HTML, CSS, LocalStorage
 - Создала интерактивное приложение для планирования задач с возможностью добавления, редактирования и удаления элементов
 - Реализовала хранение данных в LocalStorage, благодаря чему список задач сохраняется при перезагрузке страницы
