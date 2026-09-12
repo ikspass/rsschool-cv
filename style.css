@@ -1,5 +1,152 @@
+@font-face {
+  font-family: Roboto;
+  src: url(Inter-VariableFont_opsz\,wght.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto;
+}
+ul {
+  margin-left: 30px
+}
+
+.text-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.text-body {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.text-caption {
+  font-size: 16px;
+}
+
+a {
+  color: rgb(35, 125, 221);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-container {
+  width: 1000px;;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  scroll-margin-top: 80px
+}
+
+.top-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.top-section__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.top-section__avatar-wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.top-section__avatar-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:  100%;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.5s;
+}
+
+.top-section__avatar-img_secondary {
+  opacity: 0;
+}
+
+.top-section__avatar-wrapper:hover .top-section__avatar-img_primary {
+  opacity: 0;
+}
+
+.top-section__avatar-wrapper:hover .top-section__avatar-img_secondary {
+  opacity: 1;
+}
+
+.nav {
+  padding: 10px 20px;
+}
+
+.nav__list {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  top: 0;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  border-radius: 0 0 20px 20px;
+  border: 1px solid rgb(203, 203, 203);
+  border-top: 0;
+}
+
+pre {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+code {
+  font-family: 'Courier New';
+  font-size: 18px;
+}
+
+.footer {
+  border-radius: 20px 20px 0 0;
+  border: 1px solid rgb(203, 203, 203);
+  border-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  padding-bottom: 40px;
+  align-items: center;
 }
